@@ -1,0 +1,94 @@
+.contenido__proyectos{
+  max-width: 1200px;
+  border: 3px var(--color-secundario) solid;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 20px;
+}
+.proyectos-id-nombre{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  border-bottom: 1px var(--color-oscuro) solid;
+  width: 100%;
+  padding: 10px;
+}
+.id-nombre-1{
+  width: 10%;
+  text-align: center;
+}
+.id-nombre-2{
+  flex-grow: 1;
+}
+.proyectos-objetivo{
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px var(--color-oscuro) solid;
+}
+.proyectos-general{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.proyectos-general .proyectos-general-1{
+  min-width: 33.33%;
+  text-align: center;
+}/* Fin Contenidido Lista de Proyectos */
+
+.datos-Cuenta{
+  border: 2px var(--color-primario) solid;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.datos-Cuenta .cuenta__Nombre{
+  width: 100%;
+  border-bottom: 1px var(--color-primario) solid;
+  padding-bottom: 5px;
+}
+.contenedor-Revisores{
+  width: 100%;
+  margin: auto;
+  padding: 5px;
+}
+.contenedor-Revisores article{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.revisores__Datos{
+  width: 33.33%;
+  border: 2px var(--color-primario) solid;
+  border-radius: 10px;
+  height: auto;
+  word-wrap: break-word;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.revisores__Datos .revisor-Nombre{
+  width: 100%;
+  border-bottom: 1px var(--color-primario) solid;
+  padding-bottom: 5px;
+}

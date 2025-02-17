@@ -1,0 +1,22 @@
+@media screen and (max-width: 769px){
+  .principal {
+    padding: 20px;
+  }
+  .contenedor-menus section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .contenedor-menus section article {
+    width: 80%;
+  }
+  .contenedor-Revisores article{
+    flex-direction: column;
+  }
+  .contenedor-Revisores article .revisores__Datos{
+    width: 100%;
+  }
+}
